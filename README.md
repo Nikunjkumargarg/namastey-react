@@ -1,0 +1,12 @@
+#parcel
+- Dev Build
+- Local Server
+- HMR - Hot Module Replacement (automatic apply changes on browser)
+- File Watching Algorith - Written in C++ (using this algorith it does HMR)
+- Caching - Faster Builds
+- image optimisation
+- tree shaking
+- compressing
+- https
+- differencial bundling
+- different dev and prod bundles
