@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "learning react",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -18,13 +20,12 @@
     "url": "https://github.com/Nikunjkumargarg/namastey-react/issues"
   },
   "homepage": "https://github.com/Nikunjkumargarg/namastey-react#readme",
-  "devDependencies": {
-    "parcel": "^2.16.3"
-  },
   "dependencies": {
+    "parcel": "^2.16.3",
     "react": "^19.2.1",
     "react-dom": "^19.2.1"
   },
-  "browserslist": ["last 2 versions"]
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
- 
