@@ -607,3 +607,138 @@
         font-size: 36px;
     }
 }
+
+/* Restaurant Menu Page Styles */
+.restaurant-menu-page {
+    padding: 40px;
+    min-height: calc(100vh - 80px);
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.restaurant-header {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.restaurant-header h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.restaurant-header > p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.restaurant-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 600;
+}
+
+.restaurant-details span {
+    color: #333;
+}
+
+.menu-section {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #ff6b6b;
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-category h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+    color: white;
+    border-radius: 8px;
+}
+
+.menu-items {
+    display: grid;
+    gap: 20px;
+}
+
+.menu-item {
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background: #fafafa;
+}
+
+.menu-item:hover {
+    border-color: #ff6b6b;
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+    transform: translateX(5px);
+}
+
+.menu-item-info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.menu-item-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff6b6b;
+    margin-bottom: 10px;
+}
+
+.menu-item-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.loading {
+    text-align: center;
+    padding: 60px;
+    font-size: 24px;
+    color: #666;
+    font-weight: 600;
+}
+
+.error-message {
+    text-align: center;
+    padding: 60px;
+    font-size: 24px;
+    color: #ff6b6b;
+    font-weight: 600;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
